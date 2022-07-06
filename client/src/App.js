@@ -6,14 +6,14 @@ function App() {
     {
       title: "American Idiot",
       artist: "GreenDay",
-      img_src: "./images/song-1.jpg",
-      src: "./music/song.mp3"
+      img_src: "./images/AmericanIdiot.png",
+      src: "./music/AmericanIdiot.mp3"
     },
     {
       title: "Song 2",
-      artist: "Artist 2",
-      img_src: "./images/song-2.jpg",
-      src: "./music/somebody-new.mp3"
+      artist: "Blur",
+      img_src: "./images/Song2.png",
+      src: "./music/Song2.mp3"
     },
     {
       title: "Song 3",
