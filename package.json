@@ -1,24 +1,32 @@
 {
-    "name": "Moo-sic",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server/server.js",
-    "scripts": {
-        "start": "node server/server.js",
-        "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-        "install": "cd server && npm i && cd ../client && npm i",
-        "build": "cd client && npm run build"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
-    "devDependencies": {
-        "concurrently": "^5.1.0"
-    },
-    "dependencies": {
-        "@userfront/core": "^0.3.5",
-        "@userfront/react": "^0.2.22",
-        "concurrently": "^5.1.0",
-        "jwt-decode": "^3.1.2"
-    }
+  "name": "moo-sic",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "dependencies": {
+    "@userfront/core": "^0.3.5",
+    "@userfront/react": "^0.2.22",
+    "concurrently": "^5.1.0",
+    "jwt-decode": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-Bugz/Moo-Sic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/K-Bugz/Moo-Sic/issues"
+  },
+  "homepage": "https://github.com/K-Bugz/Moo-Sic#readme"
 }
